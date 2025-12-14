@@ -155,6 +155,12 @@ if st.sidebar.button("Predict"):
     st.success(f"🌸 Predicted Species: **{species}**")
     st.info(f"📊 Model Accuracy: **{accuracy:.2f}**")
 
+
+st.sidebar.markdown("---")
+st.sidebar.markdown(
+    "**📘 Note: " 
+    "These projects were created during my learning journey at **WhiteHat Jr**. "
+)
 # --------------------------------------------------
 # Footer
 # --------------------------------------------------
